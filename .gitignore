@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Secrets — never commit your API key
+.env
+
+# Local FAISS index (rebuilt from your PDFs on every run)
+faiss_index/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
